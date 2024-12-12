@@ -22,3 +22,13 @@ h3 {
     color: blueviolet;
     margin: 100px;
 }
+ .table1,
+ .table1 th, 
+ .table1 td {
+    border: 5px solid burlywood;
+}
+
+.table2 td,
+.table2 th {
+    border:3px solid pink
+}
