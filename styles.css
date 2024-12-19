@@ -1,5 +1,5 @@
 h1 {
-    color: blue
+    color: rgb(34, 34, 129)
 }
 
 .red-title {
@@ -14,7 +14,7 @@ h1 {
     font-style:normal;
 }
 p {
-    color: red;
+    color: rgb(17, 65, 138);
     margin: 50px;
 }
 
@@ -22,13 +22,29 @@ h3 {
     color: blueviolet;
     margin: 100px;
 }
+
+table{
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+th,td {
+    padding: 0.5rem;
+    text-align: center;
+    border: 2px solid;
+}
+
  .table1,
  .table1 th, 
  .table1 td {
-    border: 5px solid burlywood;
+    border-color:  burlywood;
 }
 
 .table2 td,
 .table2 th {
-    border:3px solid pink
+    border-color: palevioletred
+}
+div{
+    width: 300px;
+    margin:auto
 }
